@@ -50,6 +50,15 @@
           "System.Threading.Thread": "4.0.0"
         }
       },
+      "iTextSharp": {
+        "type": "Direct",
+        "requested": "[5.5.13.5, )",
+        "resolved": "5.5.13.5",
+        "contentHash": "+HPUqG1zZoMhzj6g6c/9fNViiUXi6/TZ4LiN4fZjg1rGWFFu4ZYKOY+YkhdkIL63DkaN75zR1hSGydBR2LgHzQ==",
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.6.2"
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
         "type": "Direct",
         "requested": "[8.0.10, )",
@@ -882,14 +891,6 @@
         "contentHash": "VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
         "dependencies": {
           "Humanizer.Core": "[2.14.1]"
-        }
-      },
-      "iTextSharp": {
-        "type": "Transitive",
-        "resolved": "5.5.13.4",
-        "contentHash": "/cvCNv8AJ+XuD99u4NfHSSxkBJKTdvP36wcfQF9V1Cjzi1ycyFSa4vJ64a3DhFVUTKVO60WF8OmAqngQDTHgYA==",
-        "dependencies": {
-          "BouncyCastle.Cryptography": "2.4.0"
         }
       },
       "librdkafka.redist": {
@@ -2890,7 +2891,7 @@
           "System.Drawing.Common": "[10.0.3, )",
           "System.IdentityModel.Tokens.Jwt": "[8.16.0, )",
           "VaultSharp": "[1.17.5.1, )",
-          "iTextSharp": "[5.5.13.4, )"
+          "iTextSharp": "[5.5.13.5, )"
         }
       }
     }
